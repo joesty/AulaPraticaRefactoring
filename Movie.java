@@ -22,6 +22,7 @@ public class Movie {
     public int getFrequentRenterPoints(int daysRented){
        //Adicionar o trecho de código extraído.
        return 1;
+    
     } 
   
     public String getTitle (){
