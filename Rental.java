@@ -15,6 +15,10 @@ public class Rental {
    public Movie getMovie() {
       return _movie;
    }
+   public int getFrequentRenterPoints() { 
+      //Adicionar o trecho de código extraído.
+      return 1;
+   }
 
    private double getCharge() {
     //Adicionar o trecho de código extraído.
