@@ -19,7 +19,10 @@ public class Movie {
     public void setPriceCode(int arg) {
         _priceCode = arg;
     }
-
+    public int getFrequentRenterPoints(int daysRented){
+       //Adicionar o trecho de código extraído.
+       return 1;
+    }
     public String getTitle (){
         return _title;
     }
