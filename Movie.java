@@ -14,7 +14,7 @@ public class Movie {
     }
 
     public int getPriceCode() {
-        return _price.getPriceCode;
+        return _price.getPriceCode();
     }
 
     public void setPriceCode(int arg) {
@@ -32,11 +32,9 @@ public class Movie {
                 throw new IllegalArgumentException("Incorrect Price Code");
         }
     }
-    public int getFrequentRenterPoints(int daysRented){
-       //Adicionar o trecho de código extraído.
-       return 1;
-    
-    } 
+    public int getFrequentRenterPoints(int daysRented) {
+        return _price.getFrequentRenterPoints(daysRented);
+    }
   
     public String getTitle (){
         return _title;
