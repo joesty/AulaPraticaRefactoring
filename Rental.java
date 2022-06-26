@@ -20,7 +20,7 @@ public class Rental {
       return 1;
    }
 
-   private double getCharge() {
+   public double getCharge() {
     //Adicionar o trecho de código extraído.
     //determine amounts for each line
     double thisAmount = 0;
