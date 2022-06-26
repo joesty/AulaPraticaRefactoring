@@ -1,5 +1,5 @@
 public class RegularPrice extends Price {
-   public int getPriceCode() {
-       return Movie.REGULAR;
-   }
+    public int getPriceCode() {
+        return Movie.REGULAR;
+    }
 }
