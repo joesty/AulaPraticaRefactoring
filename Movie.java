@@ -22,10 +22,12 @@ public class Movie {
     public int getFrequentRenterPoints(int daysRented){
        //Adicionar o trecho de código extraído.
        return 1;
-    }
+    } 
+  
     public String getTitle (){
         return _title;
     }
+  
     public double getCharge(int daysRented){
        //Adicionar o trecho de código extraído.
         double thisAmount = 0;
